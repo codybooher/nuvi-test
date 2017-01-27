@@ -1,0 +1,72 @@
+.avatar {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius:5px;
+  border: 1px solid black;
+}
+h1 {
+  text-align: center;
+}
+.container { 
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	align-content: space-between;
+ }
+ .mainTitle {
+  font-size: 20px;
+ }
+.box {
+	width: 300px;
+	height: 400px;
+	margin: 10px auto;
+	border: 1px solid black;
+	padding: 15px;
+	border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.box:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.graphs {
+  text-align: center;
+  margin: 0 auto;
+}
+.fb {
+  background-color: rgba(47, 74, 127, .6); 
+}
+.twitter {
+  background-color: rgba(95, 148, 255, .6);
+ }
+.tumblr {
+  background-color: rgba(86, 99, 127, .6);
+}
+.instagram { 
+ 	background-color: rgba(171, 199, 255, .6);
+}
+.contentImage {
+ 	max-width: 200px;
+ 	max-height: 200px;
+}
+h2 {
+ 	margin: 0 auto;
+}
+
+.axis path, .axis line
+{
+  fill: none;
+  stroke: #777;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: 'Arial';
+  font-size: 13px;
+}
+.tick {
+  stroke-dasharray: 1, 2;
+}
+.bar {
+  fill: FireBrick;
+}

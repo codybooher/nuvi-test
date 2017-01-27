@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nuvi</title>
+  <meta name="description" content="Nuvi">
+  <meta name="author" content="Cody Booher">
+  <link rel="stylesheet" type="text/css" href="nuvi.css">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=276670242751934";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<h1>Social Media Interaction</h1>
+	
+	<hr>
+	<div id="dashboard">
+		<div class="graphs">
+			<svg id="totalPosts" width="700" height="500"></svg>
+			<svg id="totalLikes" width="700" height="500"></svg>
+		</div>
+	</div>
+	<hr>
+	<div id="contentContainer" class="container"></div>
+  	<script type="text/javascript" src="nuvi.js"></script>
+</body>
+</html>
